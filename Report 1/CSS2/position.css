@@ -1,0 +1,24 @@
+.bo{
+    width:500px;
+    height:500px;
+    position: relative;
+    border:5px solid black;
+}
+.bo .con1{
+    width:100px;    height:100px;
+    background-color: red;
+    position: absolute;
+    left:300px; top:0;
+}
+.bo .con2{
+    width:300px;    height:200px;
+    background-color: blue;
+    position: absolute;
+    left:0; top:0;
+}
+.bo .con3{
+    width:150px;    height:100px;
+    background-color: greenyellow;
+    position: absolute;
+    left:200px; top:200px;
+}

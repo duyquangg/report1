@@ -1,0 +1,191 @@
+*{margin:0; padding:0;}
+
+.bannertop{
+    width:1920px;    height:70px;
+    font-size:14px; font-family: segoe ui;
+    position: relative;
+    margin:auto;
+}
+.bannertop .anh1{
+    width:140px;    height:36px;
+    position: absolute; left:150px;   top:16px;
+}
+.bannertop a.anh1 {text-decoration: none; transition:0.4s;}
+.bannertop ul.left{
+    display:flex;
+    list-style: none;
+    position: absolute; left:300px;   top:12px;
+}
+.bannertop ul.left li{
+    padding:15px; font-weight: 400;
+}
+.bannertop ul.left li a{text-decoration: none; transition:0.4s;}
+.bannertop ul.left li a:hover{color:#3897f1;}
+.bannertop ul.right{
+    display:flex;
+    list-style: none;
+    position: absolute; left:830px;   top:16px;
+}
+.bannertop ul.right li{
+    padding:10px;
+}
+.bannertop ul.right li a{text-decoration: none; transition:0.4s;}
+.bannertop ul.right li a:hover{color:#3897f1;}
+.bannertop ul.right li.box{
+    background:#3897f1; color:white;
+    width:80px;    height:20px;
+}
+
+                    /* end bannertop */
+
+.bannermiddle{
+    width:100%;   height:520px;  font-family: segoe ui;
+    background-image: url(6.jpg);
+    background-size:cover;
+    position: relative;     margin:auto;
+}
+.bannermiddle .child1{
+    position: absolute; left:410px; top:60px;
+    color:white;    font-size:32px; 
+    height:40px;    line-height:40px;
+    text-align:center;  font-weight: bold;
+    text-shadow: 2px 0px rgb(46, 100, 122);
+}   
+    /* end child1 */
+.bannermiddle .child2{
+    width:250px;  height:40px;
+    position: absolute; left:530px; top:160px;
+    color:white;  font-size:20px;
+    display:flex;   justify-content: space-between;
+}
+.bannermiddle .child2 .box1{
+    width:48%; background-color:#3897f1;
+    line-height: 40px;  text-align:center;
+    border-radius: 5px 5px 0 0;
+}
+.bannermiddle .child2 .box2{
+    width:48%;  background-color:#27313e;
+    line-height: 40px;  text-align:center;
+    border-radius: 5px 5px 0 0;
+}
+.bannermiddle .child2 .box1 a,.bannermiddle .child2 .box2 a{text-decoration: none;color:white;}
+    /* end child2 */
+.bannermiddle .child3{
+    position: absolute; left:365px; top:200px;
+}
+.bannermiddle .child3 .left input{
+    height:40px;    width:600px;
+}
+.bannermiddle .child3 .middle{
+    position: relative;
+}
+.bannermiddle .child3 .middle .middle1{
+    position: absolute; left:450px; top:-42px;
+    height:40px;    width:100px;
+    border:1px solid white;
+}
+.bannermiddle .child3 .right{
+    position: absolute; left:560px; top:5px;
+    background-color:#3897f1;
+    width:40px;    height:35px; border-radius: 5px;
+}
+.bannermiddle .child3 .right .fa-search{
+    font-size:20px; text-align:center;  line-height:35px; 
+    color:white;    padding:2px 10px;
+}
+    /* end child3 */
+.bannermiddle .child4{
+    position: absolute; left:365px; top:260px;
+    display:flex;   
+}
+.bannermiddle .child4 ._3row{
+    margin-right:10px;
+}
+.bannermiddle .child4 ._3row .col1{
+    border-radius: 5px;
+    height:40px;    width:195px;
+    padding:10px;
+}
+.bannermiddle .child5{
+    width:1920px; 
+    color:black;
+    position: absolute; left:140px; top:500px;
+}
+.bannermiddle .child5 ul{
+    display:flex;   list-style: none;
+}
+.bannermiddle .child5 ul li.a{
+    font-size:10px;
+    line-height:15px;   text-align:center;
+    width:130px;        height:15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right:20px;
+}
+.bannermiddle .child5 ul li a{text-decoration: none; transition:0.4s;}
+.bannermiddle .child5 ul li:hover a{color:#3897f1;}
+               
+                /* end bannermiddle */
+
+.bannerbottom{
+    width:100%; height:440px;
+    background-color:#eff3f6;
+    position: relative;
+}
+.bannerbottom .cover{
+    background-color:white;
+    width:1030px;   height:330px;
+    position: absolute;  left:140px; top:40px;
+    font-family: segoe ui;  font-size:14px;
+    box-sizing: border-box;
+}
+.bannerbottom .cover .top{
+    width:100%; height:50px;
+}
+.bannerbottom .cover .top{
+    display:flex;
+}
+.bannerbottom .cover .top .left{
+    padding:10px 0;
+    width:200px;
+}
+.bannerbottom .cover .top .left img{width:20px; height:20px;}
+.bannerbottom .cover .top .mid{width:500px; background-color:#fbfcfd;}
+.bannerbottom .cover .top .right1{
+    width:160px; background-color:#fbfcfd;;
+    line-height: 50px;  text-align:center;
+    border:1px solid #edf0f3;
+}
+.bannerbottom .cover .top .right2{
+    width:170px; background-color:#fbfcfd;;
+    line-height: 50px;  text-align:center;
+    border:1px solid #edf0f3;
+
+}
+
+    /* end bannerbottom top */
+
+.bannerbottom .cover .middle{
+    width:100%; height:230px;
+}
+.bannerbottom .cover .middle .frame{
+    height:230px;   width:100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.bannerbottom .cover .bottom{
+    display:flex; height:50px;
+    border:1px solid #edf0f3;
+}
+.bannerbottom .cover .bottom .left{padding:10px 20px;}
+.bannerbottom .cover .bottom .left a{text-decoration: none;}
+.bannerbottom .cover .bottom .right{
+    margin-left:600px;
+    width:100px;    height:30px;
+    background-color: #3897f1; color:white;
+    margin-top:5px; 
+    line-height:30px;   text-align: center;
+    padding:3px;
+
+}
+.bannerbottom .cover .bottom .right a{text-decoration: none; color:white;}

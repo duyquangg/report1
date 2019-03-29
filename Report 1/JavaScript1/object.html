@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <!-- Cách truy cập vào thuộc tính của đối tượng
+  <script>
+    var SinhVien = {
+      name: "Nguyễn Duy Quang",
+      year: 1998
+    }
+    document.write("Họ tên của sinh viên là: " + SinhVien.name);
+  </script> -->
+
+<script>
+    var SinhVien = {
+        name:"Nguyễn Duy Quang",
+        year:1998,
+        infor:function(){
+            document.write("- Tôi tên: " + this.name + "<br>"); 
+            document.write("- Sinh năm: " + this.year + "<br>");
+        }
+    }
+    SinhVien.infor();
+  </script>
+
+</body>
+
+</html>

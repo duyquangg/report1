@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Thẻ form -->
+    <form action="/action_page.php">
+        First name:<br>
+        <input type="text" name="firstname">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse">
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    <!-- end text, submit, reset elements -->
+    <br><br><br>
+
+    <!-- radio -->
+    <form>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+    </form>
+    <br><br><br>
+    <!-- checkbox -->
+    <form>
+        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+        <input type="checkbox" name="vehicle2" value="Car"> I have a car
+    </form>
+    <br><br><br>
+    <!-- select -->
+    <form action="/action_page.php">
+        <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+        <input type="submit">
+    </form>
+    <br><br><br>
+    <!-- textarea -->
+    <form action="/action_page.php">
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+        <br>
+        <input type="submit">
+    </form>
+    <br><br><br>
+    <!-- button -->
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+
+
+</body>
+
+</html>

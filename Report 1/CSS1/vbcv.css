@@ -1,0 +1,22 @@
+.vb{
+    text-align:center;
+    text-decoration:line-through;
+    text-shadow: blue 2px 3px 1px;
+    text-transform: normal;
+}
+
+
+#cv{
+    font-family: segoe ui;
+    font-style: italic;
+    font-weight: bold;
+    color:red;
+}
+
+/* Độ ưu tiên giữa class và id */
+div p.class{
+    font-size:15px;
+}
+#id p{
+    font-size:50px;
+}

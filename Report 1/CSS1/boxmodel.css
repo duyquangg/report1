@@ -1,0 +1,15 @@
+div{
+    width: 300px;
+    height:300px;
+    color:white;
+}
+#box1{
+    background-color:red;
+}
+#box2{
+    background-color:blue;
+    margin:30px 0 0 0;
+    border: 5px solid black;
+    padding: 100px 100px;
+    box-sizing: border-box;
+}

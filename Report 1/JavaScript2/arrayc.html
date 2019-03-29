@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <!-- reverse method -->
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+
+    <!-- math.max(), math.min() -->
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+    <script>
+        //sort method
+        var fruits = ["Orange", "Mango", "Banana", "Apple"];
+        document.getElementById("demo1").innerHTML = fruits;
+        fruits.sort();
+        document.getElementById("demo2").innerHTML = fruits;
+    </script>
+
+    <script>
+        // sort method
+        var score = [100, -4, 6, 88, -77];
+        score.sort();
+        document.getElementById("demo3").innerHTML = score;
+        score.sort(function (a, b) { return a - b; });
+        document.getElementById("demo4").innerHTML = score;
+    </script>
+
+    <script>
+        // reverse method
+        var fruits = ["Orange", "Mango", "Banana", "Apple"];
+        document.getElementById("demo5").innerHTML = score;
+        fruits.reverse();
+        document.getElementById("demo6").innerHTML = fruits;
+    </script>
+
+    <script>
+        // math.max()
+        var score = [100, -4, 6, 88, -77];
+        function GiaTriLonNhat(arr) {
+            return Math.max.apply(null, arr);
+        }
+        var max = GiaTriLonNhat(score);
+        document.write("Giá trị lớn nhất trong mảng là: " + max + "<br>");
+        
+        // math.min()
+        function GiaTriNhoNhat(arr) {
+            return Math.min.apply(null, arr);
+        }
+        var min = GiaTriNhoNhat(score);
+        document.write("Giá trị nhỏ nhất trong mảng là: " + min);
+    </script>
+</body>
+
+</html>

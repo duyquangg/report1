@@ -1,0 +1,19 @@
+/* inline */
+.inline{
+    background-color:blue;
+    color:white;
+    border:1px solid gray;
+    display:inline;
+}
+
+/* block */
+.block{
+    background-color:blue;
+    color:white;
+    border:1px solid gray;
+    display:block;
+}
+
+.ib{
+    display:inline-block;
+}
